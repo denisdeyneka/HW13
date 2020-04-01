@@ -4,11 +4,17 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "get-port": "^5.1.1"
+    "express": "^4.17.1",
+    "get-port": "^5.1.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
